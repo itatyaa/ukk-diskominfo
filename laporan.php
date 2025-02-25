@@ -3,7 +3,7 @@
     <div class="card-body">
         <div class="row">
             <div class="col-md-12">
-                <a href="cetak.php" target="_blank" class="btn btn-primary">+ Cetak Laporan</a>
+                <a href="cetak.php" target="_blank" class="btn btn-primary">Cetak Laporan</a>
                 <table class="table tablebordered" id="dataTable" width="100%" cespacing="0">
                     <tr>
                         <th>No</th>
