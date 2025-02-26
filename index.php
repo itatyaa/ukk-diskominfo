@@ -28,7 +28,6 @@
                 <h2 class="text-2xl font-bold text-green-700 mb-4">Keunggulan Web Perpustakaan</h2>
                 <ul class="list-disc list-inside space-y-2 text-gray-700">
                     <li>Akses mudah untuk meminjam buku.</li>
-                    <li>Pencarian buku cepat dan akurat dengan fitur filter.</li>
                     <li>Histori peminjaman yang terorganisir.</li>
                     <li>Sistem notifikasi untuk pengembalian tepat waktu.</li>
                     <li>Desain responsif yang nyaman digunakan dan memudahkan.</li>

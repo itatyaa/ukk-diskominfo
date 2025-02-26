@@ -1,3 +1,10 @@
+<?php
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <h1 class="mt-4">History Peminjaman</h1>
 <div class="card">
     <div class="card-body">

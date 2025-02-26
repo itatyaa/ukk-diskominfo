@@ -1,6 +1,9 @@
 <?php
 include 'koneksi.php';
-
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
 if (isset($_GET['id'])) {
     $id_peminjaman = $_GET['id'];
     $query = mysqli_query($koneksi, "UPDATE peminjaman SET status_peminjaman = 'dikembalikan' WHERE id_peminjaman = '$id_peminjaman'");

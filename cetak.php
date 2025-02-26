@@ -1,3 +1,10 @@
+<?php
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <h2 align="center">Laporan Peminjaman Buku</h2>
 <table border="1" cellpacing="0" cellpadding="5" width="100%">
                     <tr>

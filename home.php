@@ -1,5 +1,10 @@
 <?php 
 
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+
 $total_buku = mysqli_fetch_assoc(mysqli_query($koneksi, "SELECT COUNT(*) as total FROM buku"))['total'];
 
 $total_user = ($_SESSION['user']['level'] == 'admin') 
